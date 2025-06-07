@@ -45,7 +45,7 @@ Este proyecto fue desarrollado como parte de una evaluación de desarrollo web. 
 
 ## 🌐 Enlace al despliegue
 
-[🔗 Ver sitio en GitHub Pages]
+[🔗 https://divilota.github.io/ManabiGames/]
 
 ---
 
