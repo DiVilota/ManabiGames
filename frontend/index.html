@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ManabiGames</title>
-  <link rel="icon" href="assets/logo/ManabiGames Logo.png" />
+  <link rel="icon" href="" />
+  
   <!-- Fuentes Google -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
@@ -81,10 +82,18 @@
     <a href="#catalogo" class="cta-glow bg-[#00ffcc] text-black px-6 py-3 rounded-full font-bold">Explorar catálogo</a>
   </section>
 
-  <!-- Catálogo donde se insertarán las tarjetas dinámicas -->
-  <main id="catalogo" class="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <!-- Tarjetas generadas dinámicamente por JS -->
-  </main>
+  <!-- Catálogo de juegos clásicos -->
+  <section class="p-6" id="seccion-clasicos">
+    <h1 class="neon text-3xl mb-6">Juegos Clásicos</h1>
+    <main id="catalogo" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Tarjetas generadas dinámicamente por JS -->
+    </main>
+  </section>
+
+  <!-- Sección dinámica para juegos desde API RAWG -->
+  <section class="p-6" id="seccion-rawg">
+    <!-- Aquí se inyectará el contenido con JS -->
+  </section>
 
   <!-- Footer simple con borde y texto pequeño -->
   <footer class="bg-[#0a0a0a] border-t border-[#6c63ff] text-center p-4 text-sm text-[#9d00ff]">

@@ -1,0 +1,18 @@
+# Archivos de Java
+*.class
+
+# Directorios
+/target/
+/.idea/
+/.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+*.log
+*.env
+
+# Configuración específica de OS
+*.iml
